@@ -33,6 +33,8 @@ git/gitk
 #grc
 #input/editrc
 #input/inputrc
+local/share/fonts:.local/share/fonts
+config/fontconfig:.config/fontconfig
 #irssi
 #mpd/mpd.conf
 #mercurial/hgrc

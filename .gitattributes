@@ -1,0 +1,2 @@
+*.ttf filter=git-crypt diff=git-crypt
+*.otf filter=git-crypt diff=git-crypt
