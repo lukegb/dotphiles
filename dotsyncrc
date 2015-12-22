@@ -20,7 +20,7 @@
 dotsyncrc
 #ack/ackrc
 #aptitude
-#bin:bin
+bin:bin
 #ctags/ctags
 #cmus
 #curl/curlrc
@@ -76,6 +76,7 @@ zsh/zshenv
 zsh/zshrc
 zsh/oh-my-zsh:.oh-my-zsh
 xorg/Xresources
+i3
 [endfiles]
 
 # Hosts to sync
