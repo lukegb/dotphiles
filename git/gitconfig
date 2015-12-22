@@ -9,9 +9,9 @@
 
 # Global Config
 [user]
-    #name = "**Your Name**"
-    #email = "**Your Email**"
-    #signingkey = **Your GPG ID**
+    name = "Luke Granger-Brown"
+    email = "git@lukegb.com"
+    signingkey = 25CF8D09
 
 [branch "master"]
     remote = origin
