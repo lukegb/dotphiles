@@ -75,6 +75,7 @@ zsh/zprofile
 zsh/zshenv
 zsh/zshrc
 zsh/oh-my-zsh:.oh-my-zsh
+xorg/Xresources
 [endfiles]
 
 # Hosts to sync
