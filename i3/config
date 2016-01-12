@@ -161,3 +161,4 @@ bar {
 
 # set wallpaper
 exec --no-startup-id feh --bg-scale /usr/share/archlinux/wallpaper/archlinux-deep-aurora.jpg
+exec --no-startup-id xmodmap /home/lukegb/.Xmodmap
