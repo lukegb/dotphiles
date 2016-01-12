@@ -51,6 +51,10 @@
 [core]
     pager = less -FRSX
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    autocrlf = input
+
+[http]
+    cookiefile = /home/lukegb/.gitcookies
 
 [diff]
     tool = vimdiff
@@ -141,8 +145,10 @@
     rem = remote rename
 
 [push]
-    default = matching
+    default = simple
+
+[commit]
+    gpgsign = true
 
 [url "git@github.com:"]
     insteadof = github:
-
