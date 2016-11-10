@@ -29,6 +29,11 @@ font pango:monospace 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 -time 500
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 -time 500
+bindsym XF86AudioRaiseVolume exec pamixer --increase 5
+bindsym XF86AudioLowerVolume exec pamixer --decrease 5
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -125,7 +130,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # lock i3
-bindsym Ctrl+Shift+l exec "i3lock -d -i '/usr/share/archlinux/wallpaper/archlinux-simplyblack.png'"
+bindsym Ctrl+Shift+l exec "/home/lukegb/bin/i3lockwrap -i '/home/lukegb/.local/lock/archlinux-simplyblack.png'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
