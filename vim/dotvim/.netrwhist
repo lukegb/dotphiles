@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/'
+let g:netrw_dirhist_2='/home/lukegb/.ssh'
+let g:netrw_dirhist_3='/home/lukegb/vpn/house/house'
+let g:netrw_dirhist_4='/home/lukegb/Projects/sgx/sgx-lkl/lkl/include/config/defconfig'
+let g:netrw_dirhist_5='/home/lukegb/Projects/sgx/sgx-lkl/lkl'

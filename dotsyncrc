@@ -67,6 +67,7 @@ tmux/tmux.conf
 tmux/tmuxinator
 vim/vimrc
 vim/gvimrc
+vim/dotvim:.vim
 #wget/wgetrc
 zsh/fasdrc
 zsh/zlogin

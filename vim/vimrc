@@ -9,3 +9,9 @@
 
 " Customize to your needs...
 set nocompatible
+set mouse=
+syntax on
+
+set background=dark
+colorscheme sunburst
+filetype plugin indent on
