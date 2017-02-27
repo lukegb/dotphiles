@@ -125,6 +125,9 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # lock i3
 bindsym Ctrl+Shift+l exec "/home/lukegb/bin/i3lockwrap -i '/home/lukegb/.local/lock/archlinux-simplyblack.png'"
 
+# magic copypasta
+bindsym Ctrl+Shift+2 exec "yubioath show $(yubioath show | grep -v '\[HOTP credential\]$' | grep -E -o '^([a-zA-Z0-9:().@-]+ ?)+' | sed 's/ *$//' | dmenu) | grep -E -o '[0-9]+$' | tr -d '\n' | xclip"
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
